@@ -31,7 +31,7 @@
                                 <div class="card-body position-relative z-index-1 d-flex flex-column mt-5">
                                     <h3 class="text-white font-weight-bolder">{{ $room->name }}</h3>
                                     <p class="text-white font-weight-light">{{ $room->description }}</p>
-                                    <p class="text-white font-weight-light">Rp. {{ $room->rate }} <small class="text-xs">/ 1 Hour</small> </p>
+                                    <p class="text-white font-weight-light">Rp. {{ $room->rate }} <small class="text-xs">/ 1 Day</small> </p>
                                     <a class="text-white btn text-sm font-weight-bold mb-0 icon-move-right mt-4"
                                         href="{{ route('user.booking.create') }}">
                                         Book now &nbsp;
